@@ -1,12 +1,44 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.brillandoRojo {
+    box-shadow: 0 0 20px 10px rgb(250, 80, 80);
+}
+.brillandoAmarillo {
+    box-shadow: 0 0 20px 10px rgb(221, 221, 5);
+}
+.brillandoVerde {
+    box-shadow: 0 0 20px 10px greenyellow;
+}
+.btn-rojo {
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-color: black;
+    border-radius: 50%;
+}
+.btn-amarillo {
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    border-color: black;
+    border-radius: 50%;
+}
+.btn-verde {
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    border-color: black;
+    border-radius: 50%;
+}
+.palo {
+    width: 10px;
+    height: 85px;
+    background-color: black;
+}
+.semaforo {
+    width: 140px;
+    height: 200px;
+    padding: 8px;
+    border-radius: 5%;
+}
+.wrapper{
+background-color: bisque;
+}
